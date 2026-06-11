@@ -5,6 +5,19 @@
     <description>Atualizações OTA do Galileo</description>
     <language>pt-br</language>
     <item>
+      <title>Galileo 0.2.0</title>
+      <pubDate>Thu, 11 Jun 2026 18:23:41 +0000</pubDate>
+      <sparkle:version>2</sparkle:version>
+      <sparkle:shortVersionString>0.2.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[Legendas com timing e visual melhores. Configurações unificadas (⌘,). Ajuda anônima pra melhorar o app — só parâmetros de edição, sua mídia nunca sai; pode desligar em Configurações → Privacidade.]]></description>
+      <enclosure
+        url="https://github.com/MarconiTeles/Galileo/releases/download/v0.2.0/Galileo-0.2.0.zip"
+        sparkle:edSignature="LQTvVryLrkQC54zZeO8Uo3PA4S47MmAaNW07eJs6CYwt7pldu8Zrdjg3x0324lVh60jHB2czrBDfuKyJPzg/DQ=="
+        length="5779336"
+        type="application/octet-stream" />
+    </item>
+    <item>
       <title>Galileo 0.1.0</title>
       <pubDate>Thu, 11 Jun 2026 17:50:35 +0000</pubDate>
       <sparkle:version>1</sparkle:version>
