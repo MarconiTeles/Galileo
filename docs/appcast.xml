@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle">
+  <channel>
+    <title>Galileo updates</title>
+    <description>Atualizações OTA do Galileo</description>
+    <language>pt-br</language>
+    <item>
+      <title>Galileo 0.1.0</title>
+      <pubDate>Thu, 11 Jun 2026 17:50:35 +0000</pubDate>
+      <sparkle:version>1</sparkle:version>
+      <sparkle:shortVersionString>0.1.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[Primeira versão pública do Galileo.]]></description>
+      <enclosure
+        url="https://github.com/MarconiTeles/Galileo/releases/download/v0.1.0/Galileo-0.1.0.zip"
+        sparkle:edSignature="0/06JgyKtYNM3q8u3wjMKLGyIHUFNcXYbRfyrvMV6yvbeCYt3WhyrCRsn/iKZ9EilgewzYY83+8QQb5bNHwOAg=="
+        length="5779315"
+        type="application/octet-stream" />
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Galileo — editor de vídeo vertical agêntico</title>
+  <style>
+    :root { --ink:#1A1814; --soft:#6B6458; --accent:#7C5CFF; --bg:#F6F4F0; --card:#FFFFFF; }
+    * { box-sizing: border-box; }
+    body { margin:0; font-family:-apple-system,BlinkMacSystemFont,"SF Pro",Segoe UI,sans-serif;
+           background:var(--bg); color:var(--ink); line-height:1.5;
+           display:flex; min-height:100vh; align-items:center; justify-content:center; padding:24px; }
+    .card { background:var(--card); max-width:520px; width:100%; border-radius:20px; padding:48px 40px;
+            box-shadow:0 20px 60px rgba(0,0,0,.08), 0 2px 8px rgba(0,0,0,.04); text-align:center; }
+    .logo { font-size:44px; }
+    h1 { font-size:28px; margin:12px 0 4px; letter-spacing:-.02em; }
+    .tag { color:var(--soft); font-size:15px; margin:0 0 28px; }
+    .dl { display:inline-block; background:var(--accent); color:#fff; text-decoration:none;
+          font-weight:600; font-size:16px; padding:14px 30px; border-radius:12px;
+          transition:transform .12s ease, box-shadow .12s ease; box-shadow:0 6px 18px rgba(124,92,255,.32); }
+    .dl:hover { transform:translateY(-1px); box-shadow:0 10px 24px rgba(124,92,255,.40); }
+    .meta { color:var(--soft); font-size:13px; margin-top:14px; }
+    .feat { text-align:left; margin:30px auto 0; max-width:380px; color:var(--ink); font-size:14px; }
+    .feat li { margin:7px 0; list-style:none; padding-left:24px; position:relative; }
+    .feat li::before { content:"✦"; color:var(--accent); position:absolute; left:0; }
+    .foot { margin-top:28px; color:var(--soft); font-size:12px; }
+    a.subtle { color:var(--soft); }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <div class="logo">✦</div>
+    <h1>Galileo</h1>
+    <p class="tag">Editor de vídeo vertical agêntico para macOS</p>
+    <a class="dl" href="https://github.com/MarconiTeles/Galileo/releases/latest/download/Galileo-0.1.0.dmg">
+      Baixar para Mac
+    </a>
+    <p class="meta">macOS 14+ · Apple Silicon &amp; Intel · notarizado pela Apple</p>
+    <ul class="feat">
+      <li>Corte por fala que segue o roteiro (Claude + whisper)</li>
+      <li>Timeline magnética com camadas livres</li>
+      <li>Legendas queimadas + SRT, multicam, b-roll</li>
+      <li>Atualizações automáticas (não precisa reinstalar)</li>
+    </ul>
+    <p class="foot">
+      Atualiza sozinho via Sparkle ·
+      <a class="subtle" href="https://github.com/MarconiTeles/Galileo/releases">todas as versões</a>
+    </p>
+  </div>
+</body>
+</html>
