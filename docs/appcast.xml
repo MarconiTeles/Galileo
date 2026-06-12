@@ -5,6 +5,19 @@
     <description>Atualizações OTA do Galileo</description>
     <language>pt-br</language>
     <item>
+      <title>Galileo 0.2.2</title>
+      <pubDate>Fri, 12 Jun 2026 13:44:23 +0000</pubDate>
+      <sparkle:version>4</sparkle:version>
+      <sparkle:shortVersionString>0.2.2</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[Tela de boas-vindas só aparece em instalação nova (quem já tem projetos pula direto). Toolbar não desliza mais por cima dos botões da janela quando o nome do projeto é longo — o nome trunca.]]></description>
+      <enclosure
+        url="https://github.com/MarconiTeles/Galileo/releases/download/v0.2.2/Galileo-0.2.2.zip"
+        sparkle:edSignature="N9tgvPMnPiFt0B7sdj0EUCLSMo6AYWYMSX6dNsyM/Wx7OMwmmSJ9Gy3s10TxyzbWFegYv8Nhbwolh6FaNAorDA=="
+        length="5805735"
+        type="application/octet-stream" />
+    </item>
+    <item>
       <title>Galileo 0.2.1</title>
       <pubDate>Fri, 12 Jun 2026 12:16:14 +0000</pubDate>
       <sparkle:version>3</sparkle:version>
