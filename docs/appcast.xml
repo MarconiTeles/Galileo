@@ -5,6 +5,19 @@
     <description>Atualizações OTA do Galileo</description>
     <language>pt-br</language>
     <item>
+      <title>Galileo 0.2.1</title>
+      <pubDate>Fri, 12 Jun 2026 12:16:14 +0000</pubDate>
+      <sparkle:version>3</sparkle:version>
+      <sparkle:shortVersionString>0.2.1</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[Primeira execução guiada: tela de boas-vindas + o motor de IA (whisper/ffmpeg) agora baixa sozinho — corte por fala funciona em qualquer Mac Apple Silicon sem instalar nada. Privacidade transparente: o aviso lista exatamente o que é enviado (roteiro, transcrição, estrutura da edição) e nada sai antes de você vê-lo — política em marconiteles.github.io/Galileo/privacy.html.]]></description>
+      <enclosure
+        url="https://github.com/MarconiTeles/Galileo/releases/download/v0.2.1/Galileo-0.2.1.zip"
+        sparkle:edSignature="qW3QrkjUqLVWnBqoFPwv6qhIB09LHm5MhCelMdkjgBADnzrV42kZjf/hAn6FnBQzzWVAizEkuCKDoNRRKdX+AA=="
+        length="5804892"
+        type="application/octet-stream" />
+    </item>
+    <item>
       <title>Galileo 0.2.0</title>
       <pubDate>Thu, 11 Jun 2026 18:23:41 +0000</pubDate>
       <sparkle:version>2</sparkle:version>
