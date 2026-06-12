@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Galileo — Privacidade</title>
+  <style>
+    :root { --ink:#1A1814; --soft:#6B6458; --accent:#7C5CFF; --bg:#F6F4F0; --card:#FFFFFF; }
+    * { box-sizing: border-box; }
+    body { margin:0; font-family:-apple-system,BlinkMacSystemFont,"SF Pro",Segoe UI,sans-serif;
+           background:var(--bg); color:var(--ink); line-height:1.6; padding:48px 24px; }
+    .card { background:var(--card); max-width:680px; margin:0 auto; border-radius:20px; padding:48px 44px;
+            box-shadow:0 20px 60px rgba(0,0,0,.08), 0 2px 8px rgba(0,0,0,.04); }
+    h1 { font-size:26px; letter-spacing:-.02em; margin:0 0 4px; }
+    .sub { color:var(--soft); font-size:14px; margin:0 0 28px; }
+    h2 { font-size:17px; margin:28px 0 8px; }
+    p, li { font-size:15px; }
+    ul { padding-left:22px; }
+    code { background:var(--bg); padding:1px 6px; border-radius:6px; font-size:13px; }
+    a { color:var(--accent); }
+    .foot { margin-top:32px; color:var(--soft); font-size:13px; }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h1>Privacidade no Galileo</h1>
+    <p class="sub">Última atualização: 12 de junho de 2026</p>
+
+    <p>O Galileo roda inteiro no seu Mac. Seus vídeos, áudios e projetos ficam na sua
+    máquina e <strong>nunca são enviados</strong> a nenhum servidor nosso.</p>
+
+    <h2>O que o app pode enviar (e você controla)</h2>
+    <p>Para melhorar o algoritmo de corte, o Galileo tem um sistema de contribuição
+    anônima. Quando ligado, ao salvar um projeto ele envia:</p>
+    <ul>
+      <li><strong>O roteiro</strong> que você colou no app (texto);</li>
+      <li><strong>A transcrição da fala</strong> gerada do seu vídeo (texto);</li>
+      <li><strong>A estrutura da edição</strong> (EDL): timestamps de corte, ordem dos
+          takes, parâmetros — com os arquivos de mídia anonimizados (viram um hash
+          SHA-256, sem nome nem conteúdo);</li>
+      <li><strong>Rótulos de seleção de take</strong> (qual take o algoritmo escolheu ×
+          qual você manteve) e eventos de uso básicos (versão do app, recurso usado).</li>
+    </ul>
+    <p>Roteiro e transcrição <strong>são conteúdo seu</strong> — por isso o app pergunta
+    antes do primeiro envio e mostra exatamente essa lista. Você liga/desliga quando
+    quiser em <code>Configurações → Privacidade</code>. Desligado, nada sai do Mac.</p>
+
+    <h2>O que nunca é enviado</h2>
+    <ul>
+      <li>Arquivos de mídia (vídeo, áudio, imagens) — nem trechos, nem thumbnails;</li>
+      <li>Nomes de arquivos ou caminhos do seu disco;</li>
+      <li>Nome, e-mail ou qualquer cadastro — não existe conta.</li>
+    </ul>
+
+    <h2>Identificação</h2>
+    <p>As contribuições usam um identificador aleatório por instalação (guardado no
+    Keychain do seu Mac). Ele não está ligado à sua identidade e serve só para
+    agrupar contribuições da mesma instalação.</p>
+
+    <h2>Armazenamento e retenção</h2>
+    <p>As contribuições são armazenadas em um banco gerenciado (Supabase) com acesso
+    de escrita apenas — o app não consegue ler dados de ninguém. Os dados são usados
+    exclusivamente para treinar o modelo de seleção de cortes do Galileo e são
+    retidos por até <strong>24 meses</strong>.</p>
+
+    <h2>Seus direitos (LGPD)</h2>
+    <p>Você pode pedir a remoção das contribuições da sua instalação a qualquer
+    momento: escreva para
+    <a href="mailto:contato.marconireis@gmail.com">contato.marconireis@gmail.com</a>
+    com o identificador mostrado em <code>Configurações → Privacidade</code>.</p>
+
+    <h2>Atualizações automáticas</h2>
+    <p>O app consulta um feed público (GitHub Pages) para saber se há versão nova
+    (Sparkle). Essa checagem não envia nenhum dado pessoal.</p>
+
+    <p class="foot"><a href="index.html">← voltar ao download</a></p>
+  </div>
+</body>
+</html>

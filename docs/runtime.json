@@ -1,0 +1,20 @@
+{
+  "artifacts": [
+    {
+      "id": "whisper",
+      "url": "https://github.com/MarconiTeles/Galileo/releases/download/runtime-arm64-v1/whisper-cli-arm64",
+      "sha256": "6e46188be4328578cbe41e15d0faa3bf7d10e67a01e7fef7a3eecf78c35ef1a6",
+      "dest": "bin/whisper-cli",
+      "unpack": null,
+      "exec": true
+    },
+    {
+      "id": "ffmpeg",
+      "url": "https://github.com/MarconiTeles/Galileo/releases/download/runtime-arm64-v1/ffmpeg-arm64",
+      "sha256": "2e419866e00439e8beca6f4966d3011e8688e68c41d0bdbf5bd70b27949ff9ce",
+      "dest": "bin/ffmpeg",
+      "unpack": null,
+      "exec": true
+    }
+  ]
+}
