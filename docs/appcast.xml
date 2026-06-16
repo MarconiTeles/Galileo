@@ -5,6 +5,23 @@
     <description>Atualizações OTA do Galileo</description>
     <language>pt-br</language>
     <item>
+      <title>Galileo 0.2.3</title>
+      <pubDate>Tue, 16 Jun 2026 23:07:11 +0000</pubDate>
+      <sparkle:version>5</sparkle:version>
+      <sparkle:shortVersionString>0.2.3</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[<h3>O motor agora aprende com os seus cortes</h3>
+<ul>
+  <li><b>Aprendizado dos projetos salvos:</b> cada vez que você ajusta e salva um projeto, o Galileo aprende qual take você prefere — e os próximos cortes passam a refletir o seu jeito de editar.</li>
+  <li><b>Recuperação de roteiro:</b> falas do roteiro que ficavam de fora agora são buscadas em todos os clipes e recuperadas na ordem do roteiro.</li>
+</ul>]]></description>
+      <enclosure
+        url="https://github.com/MarconiTeles/Galileo/releases/download/v0.2.3/Galileo-0.2.3.zip"
+        sparkle:edSignature="HtFas19nHlYYBZf3j+heApRdcKUYv714Ess+tDyQb+vjC/DMJzBDAZpyMx+jrrzbAB+oNa2BOtgnUH1eYFDQAA=="
+        length="7187688"
+        type="application/octet-stream" />
+    </item>
+    <item>
       <title>Galileo 0.2.2</title>
       <pubDate>Fri, 12 Jun 2026 13:44:23 +0000</pubDate>
       <sparkle:version>4</sparkle:version>
