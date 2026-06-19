@@ -5,6 +5,19 @@
     <description>Atualizações OTA do Galileo</description>
     <language>pt-br</language>
     <item>
+      <title>Galileo 1.5.4</title>
+      <pubDate>Fri, 19 Jun 2026 23:12:34 +0000</pubDate>
+      <sparkle:version>10</sparkle:version>
+      <sparkle:shortVersionString>1.5.4</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[Galileo 1.5.4 — O corte agora respeita o seletor de IA (Claude OU Codex) em tudo, inclusive no motor. Download do runtime MUITO mais rápido e estável (stream direto, retoma de onde parou em queda de rede). O corte não trava mais quando o footage não bate com o roteiro — avisa claramente em vez de demorar. Adjustment layer agora estende pela borda esquerda. Modo escuro fixo. Correções de estabilidade.]]></description>
+      <enclosure
+        url="https://github.com/MarconiTeles/Galileo/releases/download/v1.5.4/Galileo-1.5.4.zip"
+        sparkle:edSignature="MnVXmQVspTInHGA4pVmPQzgAFl31/kQqOLdXBEEncrIt36/iUXcYvwj02QMK9hBOi6q9KOuRupRM3+UXSeCcBA=="
+        length="7411358"
+        type="application/octet-stream" />
+    </item>
+    <item>
       <title>Galileo 1.5.3</title>
       <pubDate>Fri, 19 Jun 2026 15:34:40 +0000</pubDate>
       <sparkle:version>9</sparkle:version>
