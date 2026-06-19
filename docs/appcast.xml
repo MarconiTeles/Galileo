@@ -5,6 +5,19 @@
     <description>Atualizações OTA do Galileo</description>
     <language>pt-br</language>
     <item>
+      <title>Galileo 1.5.1</title>
+      <pubDate>Fri, 19 Jun 2026 11:50:11 +0000</pubDate>
+      <sparkle:version>7</sparkle:version>
+      <sparkle:shortVersionString>1.5.1</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[Galileo 1.5.1 — Agente Claude OU Codex (Configurações → Conta); agente bidirecional (pergunta com opções), insere/interpreta arquivos de qualquer fonte e coloca mídia de forma inteligente (entre clipes ou por cima). Legendas com ElevenLabs Scribe via backend (PT-BR mais preciso) — liga/desliga em Configurações → Motor de IA; offline cai pro motor local. O corte não muda.]]></description>
+      <enclosure
+        url="https://github.com/MarconiTeles/Galileo/releases/download/v1.5.1/Galileo-1.5.1.zip"
+        sparkle:edSignature="p4eA/qZxnZ1aX9x5dfLrKFxXgToe9tkVdyTT4wrhdx+TxQSNZMI2JnqO4Umhu3PAWg0D9NiQqwRO0Hofr7C6DA=="
+        length="7304800"
+        type="application/octet-stream" />
+    </item>
+    <item>
       <title>Galileo 1.5.0</title>
       <pubDate>Fri, 19 Jun 2026 00:29:31 +0000</pubDate>
       <sparkle:version>6</sparkle:version>
