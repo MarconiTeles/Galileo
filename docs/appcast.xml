@@ -5,6 +5,25 @@
     <description>Atualizações OTA do Galileo</description>
     <language>pt-br</language>
     <item>
+      <title>Galileo 1.6.0</title>
+      <pubDate>Sun, 21 Jun 2026 22:02:17 +0000</pubDate>
+      <sparkle:version>11</sparkle:version>
+      <sparkle:shortVersionString>1.6.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[<h3>Novidades da 1.6</h3>
+<ul>
+<li><b>Import em camadas</b> — arraste um <b>SVG, PSD ou HTML</b> e o Galileo separa cada camada pra você editar e animar (o agente cria motion graphics complexos em cima de cada uma).</li>
+<li><b>Onboarding inteligente</b> — o app faz a varredura do que falta na sua máquina e baixa/instala só o que precisa: motor de IA, motion graphics (Remotion) e o agente.</li>
+<li><b>Codex</b> como agente alternativo ao Claude Code — escolha em Configurações &rarr; Motor de IA.</li>
+<li><b>Correção</b> — instalar/entrar no agente agora abre o Terminal na sua pasta <b>Documentos</b> (antes abria na raiz e o Claude não iniciava).</li>
+</ul>]]></description>
+      <enclosure
+        url="https://github.com/MarconiTeles/Galileo/releases/download/v1.6.0/Galileo-1.6.0.zip"
+        sparkle:edSignature="X5T5yJsZtWmMRWLMttZYSZ+3BIxiliHAdXJc2boG3F27wYXOoHkFnif6F2XDebwJEPjEGbcozKqSr73KczuUAQ=="
+        length="7914537"
+        type="application/octet-stream" />
+    </item>
+    <item>
       <title>Galileo 1.5.4</title>
       <pubDate>Fri, 19 Jun 2026 23:12:34 +0000</pubDate>
       <sparkle:version>10</sparkle:version>
