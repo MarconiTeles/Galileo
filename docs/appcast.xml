@@ -5,6 +5,25 @@
     <description>Atualizações OTA do Galileo</description>
     <language>pt-br</language>
     <item>
+      <title>Galileo 1.6.6</title>
+      <pubDate>Mon, 22 Jun 2026 15:53:24 +0000</pubDate>
+      <sparkle:version>15</sparkle:version>
+      <sparkle:shortVersionString>1.6.6</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[<h3>Novidades da 1.6.6</h3>
+<ul>
+<li><b>Imagens com fundo transparente</b> — PNGs com alpha agora entram como overlay com a transparência certa (antes o fundo virava preto e tapava o vídeo).</li>
+<li><b>Nenhum efeito vem "ligado"</b> — adicionar um efeito é neutro (não muda nada) até você mexer num parâmetro.</li>
+<li><b>Cor do preview</b> — efeitos não deixam mais o vídeo com uma "névoa"/pretos lavados.</li>
+<li><b>Chat do agente</b> — arraste arquivos da biblioteca direto pro composer; e os anexos agora aparecem na sua mensagem enviada.</li>
+</ul>]]></description>
+      <enclosure
+        url="https://github.com/MarconiTeles/Galileo/releases/download/v1.6.6/Galileo-1.6.6.zip"
+        sparkle:edSignature="L+6QaEAe12D2VmA925jume9ERhUq/UcQZko8SycPHfUQ4oIprhWr3pMvGX9xpSWR1YPHJ/nl7q60V1wNNUalBQ=="
+        length="7954741"
+        type="application/octet-stream" />
+    </item>
+    <item>
       <title>Galileo 1.6.5</title>
       <pubDate>Mon, 22 Jun 2026 13:14:22 +0000</pubDate>
       <sparkle:version>14</sparkle:version>
