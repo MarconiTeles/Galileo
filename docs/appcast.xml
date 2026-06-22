@@ -5,6 +5,22 @@
     <description>Atualizações OTA do Galileo</description>
     <language>pt-br</language>
     <item>
+      <title>Galileo 1.6.1</title>
+      <pubDate>Mon, 22 Jun 2026 03:35:28 +0000</pubDate>
+      <sparkle:version>12</sparkle:version>
+      <sparkle:shortVersionString>1.6.1</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[<h3>Novidades da 1.6.1</h3>
+<ul>
+<li><b>Agente com memória de sessão</b> — o agente de edição agora mantém o contexto da conversa entre as mensagens, retomando a mesma sessão a cada turno (no Claude Code e no Codex). Ele lembra o que você pediu antes — sem precisar repetir o contexto a cada pedido.</li>
+</ul>]]></description>
+      <enclosure
+        url="https://github.com/MarconiTeles/Galileo/releases/download/v1.6.1/Galileo-1.6.1.zip"
+        sparkle:edSignature="eKNhgt5fIXHtPzCJJ3y2i2P8YLDcI/NBemaF4hQK0PFESNXJqi60uPl8mXupRuDub6cVuqfQT+SdT/E5lmrECg=="
+        length="7923664"
+        type="application/octet-stream" />
+    </item>
+    <item>
       <title>Galileo 1.6.0</title>
       <pubDate>Sun, 21 Jun 2026 22:02:17 +0000</pubDate>
       <sparkle:version>11</sparkle:version>
