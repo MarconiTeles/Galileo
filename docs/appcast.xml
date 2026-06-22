@@ -5,6 +5,18 @@
     <description>Atualizações OTA do Galileo</description>
     <language>pt-br</language>
     <item>
+      <title>Galileo 1.6.5</title>
+      <pubDate>Mon, 22 Jun 2026 13:14:22 +0000</pubDate>
+      <sparkle:version>14</sparkle:version>
+      <sparkle:shortVersionString>1.6.5</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <enclosure
+        url="https://github.com/MarconiTeles/Galileo/releases/download/v1.6.5/Galileo-1.6.5.zip"
+        sparkle:edSignature="k4/DUry48QeO+BckfbEMzP6PcRA7b6SHv+4uK4ULwgE7Be9f9hXaFbfFtxTR8Vj5EofGjWswHgy0vkJ5E7asCg=="
+        length="7925933"
+        type="application/octet-stream" />
+    </item>
+    <item>
       <title>Galileo 1.6.1</title>
       <pubDate>Mon, 22 Jun 2026 03:35:28 +0000</pubDate>
       <sparkle:version>12</sparkle:version>
