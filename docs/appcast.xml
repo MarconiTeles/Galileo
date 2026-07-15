@@ -5,6 +5,19 @@
     <description>Atualizações OTA do Galileo</description>
     <language>pt-br</language>
     <item>
+      <title>Galileo 1.6.7</title>
+      <pubDate>Wed, 15 Jul 2026 13:51:34 +0000</pubDate>
+      <sparkle:version>16</sparkle:version>
+      <sparkle:shortVersionString>1.6.7</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[Corrige o encerramento inesperado na primeira abertura em Macs sem o Codex CLI instalado. A deteccao do backend de IA agora ocorre de forma assincrona, sem bloquear o SwiftUI.]]></description>
+      <enclosure
+        url="https://github.com/MarconiTeles/Galileo/releases/download/v1.6.7/Galileo-1.6.7.zip"
+        sparkle:edSignature="xluvYOK7F5/ZYB9pSZslVp/WNVWB+sY+HL6s5DOMEEaIHHw+vdw+YnVaZiJV7474Mtx7YYoINQajJkly/+/YAA=="
+        length="8013233"
+        type="application/octet-stream" />
+    </item>
+    <item>
       <title>Galileo 1.6.6</title>
       <pubDate>Mon, 22 Jun 2026 15:53:24 +0000</pubDate>
       <sparkle:version>15</sparkle:version>
