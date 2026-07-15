@@ -5,6 +5,19 @@
     <description>Atualizações OTA do Galileo</description>
     <language>pt-br</language>
     <item>
+      <title>Galileo 1.8.0</title>
+      <pubDate>Wed, 15 Jul 2026 14:42:02 +0000</pubDate>
+      <sparkle:version>17</sparkle:version>
+      <sparkle:shortVersionString>1.8.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[<p>Timeline mais fluida e responsiva, com virtualização de clipes, cache de preview e waveforms otimizadas.</p><p>Máscara Magnética aprimorada, recorte de pessoa mais estável e suporte opcional ao MatAnyone 2.</p><p>Corrige encerramento na primeira abertura sem Codex instalado, identidade de legendas e snapping do playhead.</p>]]></description>
+      <enclosure
+        url="https://github.com/MarconiTeles/Galileo/releases/download/v1.8.0/Galileo-1.8.0.zip"
+        sparkle:edSignature="bkIj0w3UM9x6R5RKEJtNE3lDE26EYWrLGJl4BWkeBkkN62ttJR21swXL0nSHS63j//xlXSf27PYiT5W+iDziBg=="
+        length="52096368"
+        type="application/octet-stream" />
+    </item>
+    <item>
       <title>Galileo 1.6.7</title>
       <pubDate>Wed, 15 Jul 2026 13:51:34 +0000</pubDate>
       <sparkle:version>16</sparkle:version>
