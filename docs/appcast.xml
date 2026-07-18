@@ -5,6 +5,19 @@
     <description>Atualizações OTA do Galileo</description>
     <language>pt-br</language>
     <item>
+      <title>Galileo 1.8.2</title>
+      <pubDate>Sat, 18 Jul 2026 23:40:54 +0000</pubDate>
+      <sparkle:version>19</sparkle:version>
+      <sparkle:shortVersionString>1.8.2</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[<p>Corrige a apresentação do novo ícone no macOS Tahoe.</p><p>O Galileo agora entrega o arquivo multilayer nativo do Icon Composer, eliminando a moldura clara aplicada ao ícone legado e preservando o acabamento Liquid Glass no Dock.</p>]]></description>
+      <enclosure
+        url="https://github.com/MarconiTeles/Galileo/releases/download/v1.8.2/Galileo-1.8.2.zip"
+        sparkle:edSignature="m2QA26mqh01Yi5WkuvrnNlo/yYwFWxpcncUUTBhg9++wf78IPGkpeUCNkD9ppSo/u+JqMGJvqPH7Lr1K3wR7DQ=="
+        length="53378718"
+        type="application/octet-stream" />
+    </item>
+    <item>
       <title>Galileo 1.8.1</title>
       <pubDate>Sat, 18 Jul 2026 23:07:21 +0000</pubDate>
       <sparkle:version>18</sparkle:version>
