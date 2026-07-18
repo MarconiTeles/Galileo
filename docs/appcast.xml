@@ -5,6 +5,19 @@
     <description>Atualizações OTA do Galileo</description>
     <language>pt-br</language>
     <item>
+      <title>Galileo 1.8.1</title>
+      <pubDate>Sat, 18 Jul 2026 23:07:21 +0000</pubDate>
+      <sparkle:version>18</sparkle:version>
+      <sparkle:shortVersionString>1.8.1</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[<p>Novo ícone do Galileo, criado no Icon Composer com acabamento nativo, fundo escuro e claquete em vidro roxo.</p><p>Mantém todas as melhorias de timeline, máscaras magnéticas e estabilidade da versão 1.8.0.</p>]]></description>
+      <enclosure
+        url="https://github.com/MarconiTeles/Galileo/releases/download/v1.8.1/Galileo-1.8.1.zip"
+        sparkle:edSignature="mms/8vFNA1SP4C0+D59C2Bn9eU/ZpivfaZTIjadhgoVFNSLucpZnxhYC10vTpS+OypKPZHJkA9oUuY36gowbDQ=="
+        length="54679097"
+        type="application/octet-stream" />
+    </item>
+    <item>
       <title>Galileo 1.8.0</title>
       <pubDate>Wed, 15 Jul 2026 14:42:02 +0000</pubDate>
       <sparkle:version>17</sparkle:version>
