@@ -5,6 +5,19 @@
     <description>Atualizações OTA do Galileo</description>
     <language>pt-br</language>
     <item>
+      <title>Galileo 1.8.3</title>
+      <pubDate>Sun, 19 Jul 2026 22:08:11 +0000</pubDate>
+      <sparkle:version>20</sparkle:version>
+      <sparkle:shortVersionString>1.8.3</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[<p>Corrige a queda progressiva de FPS ao adicionar muitos vídeos e assets à biblioteca.</p><p>Miniaturas, metadados e seleção agora atualizam apenas o item afetado, com cache LRU, limite de decodificações simultâneas e scrub com debounce.</p><p>Corrige também cliques que selecionavam o item abaixo e torna a ordenação da biblioteca determinística.</p>]]></description>
+      <enclosure
+        url="https://github.com/MarconiTeles/Galileo/releases/download/v1.8.3/Galileo-1.8.3.zip"
+        sparkle:edSignature="YGYRhv+h4PlLSVlNfkE7UKb8WMPAlXzd16cs4dAyiqaVCgJ9YpJnhDE62UiVpbsPD3odINJ1sZZtDdMD5TJ8DQ=="
+        length="53401647"
+        type="application/octet-stream" />
+    </item>
+    <item>
       <title>Galileo 1.8.2</title>
       <pubDate>Sat, 18 Jul 2026 23:40:54 +0000</pubDate>
       <sparkle:version>19</sparkle:version>
